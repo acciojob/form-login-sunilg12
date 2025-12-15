@@ -1,7 +1,7 @@
 function getFormvalue() {
     //Write your code here
-	const fname = document.getElementById("fname").value;
-	const lname = document.getElementById("lnfame").value;
+	const fname = document.getElementById("fname").value.trim();
+	const lname = document.getElementById("lname").value.trim();
 
 	if(fname === "" || lname === ""){
 		alert("Please enter both FirstName and LastName");
